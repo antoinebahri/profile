@@ -1,0 +1,115 @@
+body {
+  background-color: #F4FAFF;
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #8789C0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  color: #8789C0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+
+/*custom classes and ids*/
+
+.container {
+  margin: 30px auto;
+  width: 800px
+}
+
+.card {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 30px 25px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 16px 10px 36px -25px rgba(5,5,5,1);
+}
+
+.btn-turquoise {
+  background-color: #8789C0;
+  color: white;
+  border-radius: 8px;
+  padding: 20px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.btn-turquoise:hover {
+  background-color: #ffffff;
+  color: #8789C0;
+  font-weight: bold;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #8789C0;
+  border-width: thick;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+
+}
+
+#profile-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+#intro p {
+  margin-bottom: 35px;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 20px
+}
+
+#founder-title {
+  color: rgb(100, 100, 100);
+
+}
+
+.movie-picture img {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/*adding responsiveness*/
+
+@media (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
